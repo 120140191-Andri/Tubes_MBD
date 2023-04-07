@@ -1,0 +1,10 @@
+CREATE TABLE `tb_mobil_all` (
+  `id` int(11) NOT NULL,
+  `model` varchar(22) NOT NULL,
+  `year` varchar(4) NOT NULL,
+  `price` varchar(6) NOT NULL,
+  `transmission` varchar(12) NOT NULL,
+  `mileage` varchar(7) NOT NULL,
+  `fuelType` varchar(8) NOT NULL,
+  `engineSize` varchar(6) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
